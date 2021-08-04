@@ -28,29 +28,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Learn</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Web-development is one of the highly paid job and fulfilling career in the world. With the rise of  the startup ecosystem, anyone can be a developer. You don't need to be from a computer science background. 
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            But people from non-computer background or people stuck in other non-coding jobs find it difficult to get into web-app development. There is a information overload, where people get confused on what technologies to learn and how to get inside. You only require six steps. Learn about them in this free ebook <a href="https://bit.ly/2UDwQNy" target="_blank">Free ebook</a>.
           </p>
           {close}
         </article>
@@ -62,24 +48,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Meet</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            I do weekly live free webinar in which i will take you through the whole process to become a web-app developer.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Whether you work in Sales, Production support, testing or are a student, youcan be a web-developer. It seems hard, but i will tell you a 6 month process to become a web-app developer and get that dream job.
+            Click here to Register
           </p>
           {close}
         </article>
@@ -96,14 +74,25 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            My name is Nabendu Biswas and i have 16 years of IT industry experience and a decade of experience in building professional websites and front-end applications. I have started my career with Government Research lab, then worked in startup and top Investment Bank and my last job was in an awesome mid-sized company as Associate Architect.
           </p>
+          <p>My first love is programming and i love the JavaScript Ecosystem(Mainly into ReactJS), through which I have designed & developed multiple products in my career.</p>
+          <p>I have worked in Research lab, Network Security, Product, E-Commerce, Investment Bank industries as a developer.I have hands-on experience in Javascript, React, Redux, React Native, Node, Express & GraphQL.</p>
+          <p>
+          In 2018 i discovered my passion for tech blogging and teaching the thing, which i learned through blogs. I had become a dev.to top blogger also, but later switched to my own platform. Blogging led to writing books on GatsbyJS, which is published by top tech publisher Apress.
+          </p>
+          <p>Blogging led to Youtube and youtube and it led me to do the thing, which i love the second most, which is teaching. Initially i taught web-development through boot-camp on my YouTube channel, but then i had joined hands with startup, through which i had taught around 100 students and made them employable. </p>
+          <p><b>Now, i teach both freshers and experienced people web-development and help them to break into the industry.</b>
+          </p>
+          <p>I am on a mission to help 10,000 people to get into web-app development and fireproof their career.</p>
+          <div>👨‍💻 𝐅𝐞𝐰 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐥𝐢𝐧𝐤𝐬</div>
+          <a href="https://www.amazon.in/s?i=digital-text&rh=p_27%3ANabendu+Biswas" target="_blank">GatsbyJS Books</a>
+          <br />
+          <a href="https://www.youtube.com/channel/UCRf7mazcufqZxd2pR3oQJuQ" target="_blank">YouTube</a>
+          <br /> 
+          <a href="https://thewebdev.tech" target="_blank">Blog</a>
+          <br />
+          <a href="https://linktr.ee/nabendu.biswas">Linktree</a>
           {close}
         </article>
 
@@ -115,53 +104,37 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <a className="contact-btn" href="https://twd-codes.ck.page/5ac21f764b" target="_blank">Contact</a>
           <ul className="icons">
-            <li>
+          <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+                href="https://www.linkedin.com/in/nabendu-biswas/"
+                className="icon fa-linkedin" target="_blank"
               >
-                <span className="label">Twitter</span>
+                <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.youtube.com/channel/UCRf7mazcufqZxd2pR3oQJuQ?sub_confirmation=1" className="icon fa-youtube" target="_blank">
+                <span className="label">YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/nabendu.biswas.77/" className="icon fa-facebook" target="_blank">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/nabendu.codes/" className="icon fa-instagram" target="_blank">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://twitter.com/nabendu82"
+                className="icon fa-twitter" target="_blank"
               >
-                <span className="label">GitHub</span>
+                <span className="label">Twitter</span>
               </a>
             </li>
           </ul>
