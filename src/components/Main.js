@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import pic03 from '../images/pic03.png'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/pic01.jpg'
+import pic04 from '../images/pic04.jpg'
 
 class Main extends React.Component {
   render() {
@@ -30,7 +31,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Learn</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="learn_pic" />
           </span>
           <p>
             Web-development is one of the highly paid job and fulfilling career in the world. With the rise of  the startup ecosystem, anyone can be a developer. You don't need to be from a computer science background. 
@@ -50,7 +51,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Meet</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic04} alt="meet" />
           </span>
           <p>
             I do weekly live free webinar in which i will take you through the whole process to become a web-app developer.
@@ -71,7 +72,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic03} alt="self_pic" />
           </span>
           <p>
             My name is Nabendu Biswas and i have 16 years of IT industry experience and a decade of experience in building professional websites and front-end applications. I have started my career with Government Research lab, then worked in startup and top Investment Bank and my last job was in an awesome mid-sized company as Associate Architect.
@@ -104,6 +105,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
+          <span className="image main">
+            <img src={pic02} alt="self_pic" />
+          </span>
           <a className="contact-btn" href="https://twd-codes.ck.page/5ac21f764b" target="_blank">Contact</a>
           <ul className="icons">
           <li>
