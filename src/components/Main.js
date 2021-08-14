@@ -37,7 +37,7 @@ class Main extends React.Component {
             Web-development is one of the highly paid job and fulfilling career in the world. With the rise of  the startup ecosystem, anyone can be a developer. You don't need to be from a computer science background. 
           </p>
           <p>
-            But people from non-computer background or people stuck in other non-coding jobs find it difficult to get into web-app development. There is a information overload, where people get confused on what technologies to learn and how to get inside. You only require six steps. Learn about them in this free ebook <a href="https://bit.ly/2UDwQNy" target="_blank">Free ebook</a>.
+            But people from non-computer background or people stuck in other non-coding jobs find it difficult to get into web-app development. There is a information overload, where people get confused on what technologies to learn and how to get inside. I have created a course specially designed for Production Support, Testing or even non-computer background to get into development. Learn more about  <a href="https://school.twd.codes" target="_blank">Web-dev Transition System</a>.
           </p>
           {close}
         </article>
@@ -104,11 +104,23 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Subscribe</h2>
           <span className="image main">
             <img src={pic02} alt="self_pic" />
           </span>
-          <a className="contact-btn" href="https://twd-codes.ck.page/5ac21f764b" target="_blank">Contact</a>
+          <p>
+          I know that you must be receiving tons of emails from a lot of marketers, and don't want to subscribe. But this one is from a developer.
+          </p>
+          <p>
+          I know that you might have seen my content on YouTube or LinkedIn. And then you found something valuable, which got us connected.
+          </p>
+          <p>
+          I will promise you one thing...
+          </p>
+          <p>
+          Every single email I send you, whether it's a webinar reminder or a content piece or, my only intention is to help you succeed in our life and career.
+          </p>
+          <a className="contact-btn" href="https://twd-codes.ck.page/5ac21f764b" target="_blank">Subscribe</a>
           <ul className="icons">
           <li>
               <a
