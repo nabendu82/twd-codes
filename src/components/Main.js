@@ -4,6 +4,19 @@ import pic03 from '../images/pic03.png'
 import pic02 from '../images/pic02.jpg'
 import pic01 from '../images/pic01.jpg'
 import pic04 from '../images/pic04.jpg'
+import transition01 from '../images/web-dev-transition.png'
+import transition02 from '../images/CSS-flexbox-and-Grid.png'
+import transition03 from '../images/CSS-projects.png'
+import transition04 from '../images/JavaScript-projects.png'
+import transition05 from '../images/Async-js-and-es6.png'
+import transition06 from '../images/ReactJS-course.png'
+import transition07 from '../images/ReactJS-bootcamp.png'
+import transition08 from '../images/Web-dev_Projects.png'
+import transition09 from '../images/Web-dev_bootcamp.png'
+import hascodereview from '../images/myHashCode.png'
+import trustpilotreview1 from '../images/trustpilotreview1.png'
+import trustpilotreview2 from '../images/trustpilotreview2.png'
+import transition10 from '../images/transition-main.png'
 
 class Main extends React.Component {
   render() {
@@ -37,8 +50,66 @@ class Main extends React.Component {
             Web-development is one of the highly paid job and fulfilling career in the world. With the rise of  the startup ecosystem, anyone can be a developer. You don't need to be from a computer science background. 
           </p>
           <p>
-            But people from non-computer background or people stuck in other non-coding jobs find it difficult to get into web-app development. There is a information overload, where people get confused on what technologies to learn and how to get inside. I have created a course specially designed for Production Support, Testing or even non-computer background to get into development. Learn more about  <a href="https://school.twd.codes" target="_blank">Web-dev Transition System</a>.
+            But people from non-computer background or people stuck in other non-coding jobs find it difficult to get into web-app development. There is a information overload, where people get confused on what technologies to learn and how to get inside. I have created a course specially designed for Production Support, Testing or even non-computer background to get into development. Learn more about all courses <a href="https://school.twd.codes" target="_blank">here</a>.
           </p>
+          <h3 className="major">Web-dev Transition System Bundle</h3>
+          <div className="image_grid">
+            <div class="grid_item">
+              <img class="item" src={transition01} alt="transition01" />
+              <h4>Web-dev Transition System</h4>
+            </div>
+            <div class="grid_item">
+              <img class="item" src={transition02} alt="transition02" />
+              <h4>CSS Flexbox & Grid</h4>
+            </div>
+            <div class="grid_item">
+              <img class="item" src={transition03} alt="transition03" />
+              <h4>CSS Projects</h4>
+            </div>
+            <div class="grid_item">
+              <img class="item" src={transition04} alt="transition04" />
+              <h4>JavaScript Projects</h4>
+            </div>
+            <div class="grid_item">
+              <img class="item" src={transition05} alt="transition05" />
+              <h4>Async JavaScript & ES6</h4>
+            </div>
+            <div class="grid_item">
+              <img class="item" src={transition06} alt="transition06" />
+              <h4>The ReactJS Course</h4>
+            </div>
+          </div>
+          <div className="center-btn">
+            <a className="contact-btn" href="https://bit.ly/3gy4trO" target="_blank">Buy at ₹999</a>
+          </div>
+          <h3 className="major">ReactJS Bootcamp</h3>
+          <div className="image_grid">
+            <div class="grid_item">
+              <img class="item" src={transition07} alt="transition07" />
+              <h4>ReactJS Bootcamp</h4>
+            </div>
+            <div class="grid_item">
+              <img class="item" src={transition08} alt="transition08" />
+              <h4>Web-dev Projects</h4>
+            </div>
+          </div>
+          <div className="center-btn">
+            <a className="contact-btn" href="https://bit.ly/3kwsNvi" target="_blank">Buy at ₹9,999</a>
+          </div>
+          <h3 className="major">Web-dev Bootcamp</h3>
+          <div className="image_grid">
+            <div class="grid_item">
+              <img class="item" src={transition09} alt="transition09" />
+              <h4>Web-dev Bootcamp</h4>
+            </div>
+            <div class="grid_item">
+              <img class="item" src={transition08} alt="transition08" />
+              <h4>Web-dev Projects</h4>
+            </div>
+          </div>
+          <div className="center-btn">
+            <a className="contact-btn" href="https://bit.ly/3kwJCGm" target="_blank">Buy at ₹14,999</a>
+          </div>
           {close}
         </article>
 
@@ -58,8 +129,10 @@ class Main extends React.Component {
           </p>
           <p>
             Whether you work in Sales, Production support, testing or are a student, youcan be a web-developer. It seems hard, but i will tell you a 6 month process to become a web-app developer and get that dream job.
-            Click here to Register
           </p>
+          <div className="center-btn">
+              <a className="contact-btn" href="https://bit.ly/3BcqSTi" target="_blank">Register Here</a>
+            </div>
           {close}
         </article>
 
@@ -90,6 +163,12 @@ class Main extends React.Component {
           <a href="https://www.amazon.in/s?i=digital-text&rh=p_27%3ANabendu+Biswas" target="_blank">GatsbyJS Books</a>
           <br />
           <a href="https://www.youtube.com/channel/UCRf7mazcufqZxd2pR3oQJuQ" target="_blank">YouTube</a>
+          <br />
+          <a href="https://open.spotify.com/show/1ZHMluBRqUEJ0qjbZXc0xE" target="_blank">Podcast</a>
+          <br /> 
+          <a href="https://www.facebook.com/groups/thewebdev4u" target="_blank">Exclusive Facebook Group</a>
+          <br />
+          <a href="https://t.me/joinchat/H6llKYR0a05hNmI1">Exclusive Telegram Group</a>
           <br /> 
           <a href="https://thewebdev.tech" target="_blank">Blog</a>
           <br />
@@ -104,12 +183,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Subscribe</h2>
+          <h2 className="major">Connect</h2>
           <span className="image main">
             <img src={pic02} alt="self_pic" />
           </span>
           <p>
-          I know that you must be receiving tons of emails from a lot of marketers, and don't want to subscribe. But this one is from a developer.
+          I know that you must be receiving tons of emails from a lot of marketers, and don't want to connect. But this one is from a developer.
           </p>
           <p>
           I know that you might have seen my content on YouTube or LinkedIn. And then you found something valuable, which got us connected.
@@ -120,7 +199,7 @@ class Main extends React.Component {
           <p>
           Every single email I send you, whether it's a webinar reminder or a content piece or, my only intention is to help you succeed in our life and career.
           </p>
-          <a className="contact-btn" href="https://twd-codes.ck.page/5ac21f764b" target="_blank">Subscribe</a>
+          <a className="contact-btn" href="https://twd-codes.ck.page/5ac21f764b" target="_blank">Connect</a>
           <ul className="icons">
           <li>
               <a
@@ -154,6 +233,47 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
+          {close}
+        </article>
+        <article
+          id="reviews"
+          className={`${this.props.article === 'reviews' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Reviews</h2>
+          <span className="image main">
+            <img src={transition10} alt="transition10" />
+          </span>
+          <h3 className="major">MyHashCode Review</h3>
+          <p>
+          I have taught JavaScript and ReactJS to around 70 students in a edtech startup MyHashCode in the Month of June and July, 2021 and really happy to see all of them created awesome Reactjs projects and learnt a lot from it.
+          </p>
+          <p>
+          Most of these students knew basic HTML, CSS and JavaScript when came for the #internship and i taught them Advanced JavaScript and ReactJS.
+          </p>
+          <p>
+          It feels so great to get positive feedback from them and knowing that they have learnt from me. Below is the LinkedIn link for the reviews.
+          </p>
+          <div class="image_flex">
+            <img src={hascodereview} alt="hascodereview" />
+          </div>
+          <div style={{ marginTop: '15px'}}>
+            <a className="contact-btn" href="https://www.linkedin.com/feed/update/urn:li:activity:6835641954345226240" target="_blank">MyHashCode Review</a>
+          </div>
+          <hr />
+          <h3 className="major">Trustpilot Reviews</h3>
+          <p>
+            Got some awesome reviews for my course <a href="https://school.twd.codes" target="_blank">Web-dev Transition System</a> on TrustPilot.
+          </p>
+          <div class="image_flex">
+            <img src={trustpilotreview1} alt="trustpilotreview1" />
+            <img src={trustpilotreview2} alt="trustpilotreview2" />
+          </div>
+          <div style={{ marginTop: '15px'}}>
+            <a className="contact-btn" href="https://www.trustpilot.com/review/twd.codes" target="_blank">Trustpilot Review</a>
+          </div>
           {close}
         </article>
       </div>

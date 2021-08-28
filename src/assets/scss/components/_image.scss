@@ -85,3 +85,26 @@
 			}
 		}
 	}
+
+	.image_grid{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 50px 1.8em;
+		place-items: center;
+	}
+
+	.image_flex{
+		display: flex;
+		flex-direction: column;
+		row-gap: 5px;
+	}
+
+	.grid_item{
+		display:grid;
+		place-items: center;
+	}
+
+	.item{
+		height: 200px;
+		width: 200px;
+	}

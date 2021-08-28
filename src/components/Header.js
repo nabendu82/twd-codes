@@ -49,7 +49,16 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Subscribe
+            Connect
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('reviews')
+            }}
+          >
+            Reviews
           </button>
         </li>
       </ul>
