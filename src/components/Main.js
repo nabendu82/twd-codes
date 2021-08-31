@@ -131,7 +131,7 @@ class Main extends React.Component {
             Whether you work in Sales, Production support, testing or are a student, youcan be a web-developer. It seems hard, but i will tell you a 6 month process to become a web-app developer and get that dream job.
           </p>
           <div className="center-btn">
-              <a className="contact-btn" href="https://bit.ly/3BcqSTi" target="_blank">Register Here</a>
+              <a className="contact-btn" href="https://bit.ly/2UYrIni" target="_blank">Register Here</a>
             </div>
           {close}
         </article>
