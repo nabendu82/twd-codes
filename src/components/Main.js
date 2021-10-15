@@ -125,13 +125,18 @@ class Main extends React.Component {
             <img src={pic04} alt="meet" />
           </span>
           <p>
-            I do weekly live free webinar in which i will take you through the whole process to become a web-app developer.
+            I do weekly live Web-development workshop, in which i will tell the 3 Secrets to get into development. Beside this will also teach the basics to step into web-development.
           </p>
+          <ul>
+            <li>HTML Basics</li>
+            <li>CSS Basics</li>
+            <li>JavaScript Basics</li>
+          </ul>
           <p>
-            Whether you work in Sales, Production support, testing or are a student, youcan be a web-developer. It seems hard, but i will tell you a 6 month process to become a web-app developer and get that dream job.
+            Whether you work in Sales, Production support, testing or are a student, you can be a web-developer. It seems hard, but i will tell you a 6 month process to become a web-app developer and get that dream job.
           </p>
           <div className="center-btn">
-              <a className="contact-btn" href="https://bit.ly/2UYrIni" target="_blank">Register Here</a>
+              <a className="contact-btn" href="https://bit.ly/3v80zfh" target="_blank">Register Here</a>
             </div>
           {close}
         </article>
